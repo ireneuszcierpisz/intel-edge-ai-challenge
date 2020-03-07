@@ -38,7 +38,9 @@ The steps:
 	b) building up command line app to use Intel OpenVINO Inference Engine
 
 
-To run the project: 	python app.py -m "The location of the model xml file"
+To run the project: 	
+	
+	python app.py -m "The_location/of_the_model_xml_file"
 
 	-h usage: Run inference on an input live stream or video
        [-h] [-m M] [-i I] [-d D] [-c C]
