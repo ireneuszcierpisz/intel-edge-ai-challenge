@@ -4,7 +4,7 @@ The purpose of this project is to try to make an app that could save pedestrian 
 
 Please find the project visualisation images:
 
-	v1-img.png,     v2-img.png .
+	v1-img.png     v2-img.png 
 
 Goals:
 
@@ -20,8 +20,10 @@ I consider the possibility of utilization OpenVINO IR of pedestrian and vehicle 
 Idea:
 
 	App should detect people and vehicle approaching to the same point.
-	App should predict direction of movement of objects and potential collision point. If objects are too close app should produce warning.
-	In the future app like this could warn off people by their smartphone or rather special very small devices build for this purpose by beeping, shaking or comunicating e.g. "STOP! DON'T CROSS THE ROAD!"
+	App should predict direction of movement of objects and potential collision point. 
+	If objects are too close app should produce warning.
+	In the future app like this could warn off people by their smartphone or rather special very small 
+	devices build for this purpose by beeping, shaking or comunicating e.g. "STOP! DON'T CROSS THE ROAD!"
 	Potentialy app like this could use video stream from the nearest cctv camera.
 
 
@@ -66,11 +68,11 @@ In that stage of app development process (phase 4) I found problems to solve:
 
 Files: 
 
-	check_layers.py   -> Checks if there are unsupported layers in the model,  
-	get_args.py       -> Gets the arguments from the command line, 
+	check_layers.py   -> Checks if there are unsupported layers in the model
+	get_args.py       -> Gets the arguments from the command line
 	capture_stream.py -> Checks if the input is image, webcam or video 
-				and if allowed open video capture and create the video writer, 
-	inference.py      -> Creates class Network with def of function returns not supported layers added, 
-	app.py            -> with main function.
+				and if allowed open video capture and create the video writer
+	inference.py      -> Creates class Network with added def of function that returns not supported layers 
+	app.py            -> with main function
     
 I think that even in the future world of autonomus cars pedestrians will be still in danger on the road.
