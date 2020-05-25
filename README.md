@@ -4,7 +4,9 @@ The purpose of this project is to try to make an app that could save pedestrian 
 
 Please find the project visualisation images:
 
-	v1-img.png     v2-img.png 
+ - [image1](https://github.com/ireneuszcierpisz/intel-edge-ai-challenge/blob/master/v1-img.png)    
+ 
+ - [image2](https://github.com/ireneuszcierpisz/intel-edge-ai-challenge/blob/master/v2-img.png)
 
 Goals:
 
